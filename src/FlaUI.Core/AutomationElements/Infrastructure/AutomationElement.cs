@@ -849,6 +849,11 @@ namespace FlaUI.Core.AutomationElements.Infrastructure
         {
             return new Window(BasicAutomationElement);
         }
+
+        public ToggleableButton AsToggleableButton()
+        {
+            return new ToggleableButton(BasicAutomationElement);
+        }
         #endregion Conversion Methods
 
         #region Convenience methods
